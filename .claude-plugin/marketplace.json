@@ -1,0 +1,23 @@
+{
+  "name": "folson-marketing",
+  "owner": { "name": "Folson Marketing" },
+  "metadata": { "description": "Marketing skills by Folson Marketing." },
+  "plugins": [
+    {
+      "name": "ecommerce-site-build",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Build or redesign an e-commerce / D2C storefront end to end, gated by 5 user approvals (English edition).",
+      "skills": ["./skills/ecommerce-site-build"]
+    },
+    {
+      "name": "ecommerce-site-build-zh",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "独立站 / 跨境电商网站新建与改版全流程，5 道用户确认闸门（中文版）。",
+      "skills": ["./skills/ecommerce-site-build-zh"]
+    }
+  ]
+}
